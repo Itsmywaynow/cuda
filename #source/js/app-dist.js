@@ -1,0 +1,1 @@
+var transform_styles=["-webkit-transform","-ms-transform","transform"];window.randomize=function(){var r=Math.floor(360*Math.random());for(i in transform_styles)$(".circle .fill").css(transform_styles[i],"rotate("+r+"deg)")};
